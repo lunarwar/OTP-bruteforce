@@ -1,10 +1,12 @@
 import requests
 import json
 import random
-import thread
+
 
 default_header = {
-    # define header requirements for for your target
+   'Content-Type': 'application/json',
+   'Cookie': '__cfduid=d0c1a883ee8951a15a4647c62412e5a6e1598621230',
+   'authorization'
 }
 
 
